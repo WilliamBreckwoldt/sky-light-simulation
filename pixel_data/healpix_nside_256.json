@@ -1,0 +1,34 @@
+{
+  "info": {
+    "nside": 256,
+    "npix": 786432,
+    "binary_file": "healpix_nside_256.npy",
+    "data_type": "int16",
+    "scaling_factor": 5215.030020292134,
+    "data_info": "Pixel data is stored in the binary file. To decode, load the int16 data and divide by the scaling_factor. Each row corresponds to one pixel and contains 10 values.",
+    "data_shape": [
+      [
+        "pixel_theta",
+        "pixel_phi"
+      ],
+      [
+        [
+          "vert1_theta",
+          "vert1_phi"
+        ],
+        [
+          "vert2_theta",
+          "vert2_phi"
+        ],
+        [
+          "vert3_theta",
+          "vert3_phi"
+        ],
+        [
+          "vert4_theta",
+          "vert4_phi"
+        ]
+      ]
+    ]
+  }
+}
